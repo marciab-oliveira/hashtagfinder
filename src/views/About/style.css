@@ -1,0 +1,204 @@
+.containerAbout{
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../assets/table-bg.jpg');
+  color:  #FFFFFF;
+}
+.about{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  align-items: center;
+  padding-bottom: 3%;
+}
+.aboutProject{
+  width: 50%;
+  margin-top: 5%;
+  padding-left: 3%;
+}
+.aboutProjectTitle{
+  font-size: 2.5rem;
+  padding-bottom: 10%;
+}
+.projectText{
+  text-align: justify;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+.textLoader, .aboutLoader{ 
+  display: flex;
+  height: 40px;
+  width: 40px;
+  margin: auto;
+}
+.aboutIlustration{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  padding-top: 8%;
+}
+.IlustrationImage{
+  width: 100%;
+}
+.aboutUs{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+}
+.aboutTitle{
+  width: 87%;
+  margin-bottom: 4%;
+  margin-top: 2%;
+  font-size: 1.7rem;
+  padding-left: 10%;
+}
+.aboutUsBox{
+  display: flex;
+  width: 80%;
+  padding-right: 15%;
+}
+@media screen and (max-width:1500px){
+  .containerAbout{
+    max-width: 1500px;
+  }
+  .aboutProject{
+    margin-top: 0%;
+  }
+  .aboutProjectTitle{
+    font-size: 1.5rem;
+  }
+  .aboutIlustration{
+    padding-top: 10%;
+  }
+  .projectText{
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+  }
+  .aboutTitle{
+    margin-bottom: 3%;
+    margin-top: 1%;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width:1112px) {
+  .containerAbout{
+    max-width: 1112px;
+  }
+  .about{
+    margin-top: 2%;
+  }
+  .aboutIlustration{
+    padding-top: 3%;
+  }
+  .aboutProjectTitle{
+    font-size: 1.3rem;
+    margin-top: 4%;
+    margin-bottom: 0%;
+  }
+  .projectText{
+    font-size: .9rem;
+    line-height: 2rem;
+  }
+  .aboutTitle{
+    margin-bottom: 3%;
+    margin-top: 1%;
+    font-size: 1rem;
+    padding-left: 6%;
+  }
+  .aboutUsBox{
+    width: 85%;
+  }
+}
+@media screen and (max-width:768px) {
+  .containerAbout{
+    max-width: 768px;
+    align-items: center;
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+  }
+  .aboutProject{
+    padding-left: 0%;
+    align-items: center;
+    width: 100%;
+  }
+  .aboutProjectTitle{
+    margin-top: 6%;
+    margin-bottom: 0%;
+  }
+  .projectText{
+    font-size: 1.1rem;
+    line-height: 2.2;
+    margin-bottom: 5%;
+  }
+  .aboutTitle{
+    margin-bottom: 6%;
+    margin-top: 8%;
+  }
+  .aboutIlustration{
+    margin-top: 10%;
+    width: 90%;
+  }
+  .aboutUsBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    padding-right: 0%;
+  }
+}
+@media screen and (max-width:562px) {
+  .containerAbout{
+    max-width: 562px;
+  }
+  .about{
+   width: 80%;
+  }
+  .aboutProject{
+    width: 100%;
+  }
+  .aboutProjectTitle{
+    margin-top: 8%;
+  }
+  .projectText{
+    margin-bottom: 8%;
+  }
+  .aboutIlustration{
+    width: 100%;
+  }
+  .aboutTitle{
+   margin-bottom: 5%;
+  }
+}
+@media screen and (max-width:412px) {
+  .containerAbout{
+    max-width: 412px;
+  }
+  .aboutProjectTitle{
+    font-size: 1rem;
+    margin-top: 12%;
+  }
+  .projectText{
+    font-size: 1rem;
+    line-height: 2.1;
+  }
+  .aboutIlustration{
+    margin-top: 15%;
+  }
+  .aboutUs{
+    margin-top: 12%;
+  }
+  .aboutTitle{
+    margin-bottom: 8%;
+    font-size: .9rem;
+  }
+}

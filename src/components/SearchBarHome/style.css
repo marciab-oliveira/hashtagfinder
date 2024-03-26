@@ -1,0 +1,88 @@
+.searchBar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 12%;
+}
+.searchBarInput{
+  display: flex;
+  align-items: center;
+  width: 900px;
+  border-radius:72px;
+  background-color: #1E3E7B;
+  padding: 1%;
+}
+.searchInput {
+  padding: 1.5%;
+  width: 85%;
+  background-color:transparent;
+  border:none;
+  color: #8D9DA2;
+  opacity: 0.57;
+  font-size: 50px;
+  margin-left: 3%;
+} 
+.searchButton{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 3%;
+}
+.searchInputIcon{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.searchInput:focus {
+   outline: 0;
+}
+
+@media screen and (max-width:1500px){
+  .searchBarInput{
+    margin-top: 4%;
+    width: 600px;
+  }
+  .searchInput{
+    font-size: 34px;
+  }
+}
+@media screen and (max-width:1112px){
+  .searchBarInput{
+    width: 500px;
+  }
+  .searchInput{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:768px){
+  .searchBarInput{
+    width: 400px;
+    margin-top:2%;
+  }
+  .searchInput{
+    font-size: 27px;
+  }
+}
+@media screen and (max-width:562px){
+  .searchBarInput{
+    width: 420px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .searchInput{
+    font-size: 25px;
+  }
+  .searchInputIcon{
+    width: 20px;
+  }
+}
+@media screen and (max-width:412px){
+  .searchBarInput{
+    width: 351px;
+    margin-top: 9%;
+  }
+  .searchInputIcon{
+    width: 18px;
+  }
+}
+  
